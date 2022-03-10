@@ -1,0 +1,12 @@
+{
+  "name": "php-react-example",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/WillBooster/php-react-example.git",
+  "author": "WillBooster Inc.",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "php -S localhost:3000 -t src/"
+  }
+}
