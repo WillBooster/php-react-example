@@ -7,7 +7,7 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "prestart": "mkdir dist && cp src/index.php dist",
+    "prestart": "mkdir -p dist && cp src/index.php dist",
     "start": "concurrently \"esbuild src/index.jsx --bundle --outdir=dist --watch\" \"php -S localhost:3000 -t dist\""
   },
   "dependencies": {

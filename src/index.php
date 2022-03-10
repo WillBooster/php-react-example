@@ -10,9 +10,19 @@
 </head>
 
 <body>
-  <div class="like_button_container"></div>
-  <div class="like_button_container"></div>
-  <div class="like_button_container"></div>
+  <h2>Like button</h2>
+  <div data-react-container="like_button_container"></div>
+  <div data-react-container="like_button_container"></div>
+  <div data-react-container="like_button_container"></div>
+
+  <h2>Form</h2>
+  <form action="/" method="POST">
+    <input name="text" type="text" />
+    <div data-react-container="array_input_container"></div>
+    <button type="submit">Submit</button>
+  </form>
+
+  <pre><?php echo json_encode($_POST, JSON_PRETTY_PRINT) ?></pre>
 </body>
 
 </html>
