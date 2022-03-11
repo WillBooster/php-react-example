@@ -1,5 +1,5 @@
-
-dist
+.idea/
+dist/
 
 # Created by https://www.toptal.com/developers/gitignore/api/linux,macos,react,windows,yarn
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,react,windows,yarn

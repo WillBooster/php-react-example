@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
 
-const LikeButton = () => {
+const LikeButton: React.FC = () => {
   const [count, setCount] = useState(0);
 
   return (
@@ -18,8 +18,8 @@ for (const container of document
   ReactDOM.render(<LikeButton />, container);
 }
 
-const ArrayInput = () => {
-  const [array, setArray] = useState(['']);
+const ArrayInput: React.FC = () => {
+  const [array, setArray] = useState([""]);
 
   return (
     <div>
@@ -66,7 +66,7 @@ const ArrayInput = () => {
           </button>
         </div>
       ))}
-      <button type="button" onClick={() => setArray((v) => [...v, ''])}>
+      <button type="button" onClick={() => setArray((v) => [...v, ""])}>
         Add
       </button>
     </div>

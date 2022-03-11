@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <h2>Like button</h2>
+  <h2>Like Buttons</h2>
   <div data-react-container="like_button_container"></div>
   <div data-react-container="like_button_container"></div>
   <div data-react-container="like_button_container"></div>
@@ -22,6 +22,7 @@
     <button type="submit">Submit</button>
   </form>
 
+  <h2>POST Parameters</h2>
   <pre><?php echo json_encode($_POST, JSON_PRETTY_PRINT) ?></pre>
 </body>
 
